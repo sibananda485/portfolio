@@ -258,6 +258,7 @@ nav ul li a:hover{
     margin-inline: auto;
     align-items: center;
     justify-content: space-around;
+    margin-bottom: 70px;
 }
 .aboutSection .left{
     width: 25%;
