@@ -1,58 +1,72 @@
 /* Global CSS */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     scroll-behavior:smooth;
 }
+
 body{
     font-family: sans-serif;
     color: white;
     height: 300vh;
     background-color: rgb(0, 0, 43);
 }
+
 ::-webkit-scrollbar{
     width: 6px;
 }
+
 ::-webkit-scrollbar-track{
-    /* background-color: #61DBFB; */
     padding: 5px;
     background-clip: border-box;
 }
+
 ::-webkit-scrollbar-thumb{
     background-color: #61DBFB;
     border-radius: 5px;
 }
+
 .box{
     max-width: 1350px;
     padding-inline: 20px;
     margin: auto;
 }
+
 .active{
     left: 0;
 }
+
 h1{
     font-size: 3.5rem;
 }
+
 h2{
     font-size: 2.5rem;
 }
+
 h3{
     font-size: 2rem;
 }
+
 h3{
     font-size: 1.9rem;
 }
+
 p{
     line-height: 1.5;
     color: rgb(218, 218, 218);
 }
+
 .heading{
     text-align: center;
     margin-block: 50px;
 }
+
 ul{
     display: flex;
     align-items: center;
@@ -62,15 +76,19 @@ ul{
     font-weight: bold;
     font-size: 1.2rem;
 }
+
 a{
     color: white;
 }
+
 ul li:nth-child(1) a{
     color: #61DBFB;
 }
+
 a{
     text-decoration: none;
 }
+
 .primaryButton{
     background-color: #61DBFB;
     color:  rgb(0, 0, 43) ;
@@ -82,6 +100,7 @@ a{
     border: 1px solid #61DBFB;
     transition: 0.2s ease-out;
 }
+
 .primaryButton:hover{
     background-color: rgb(0, 0, 43);
     color: #61DBFB;
@@ -96,6 +115,7 @@ a{
     color: green;
     list-style: none;
 }
+
 nav{
     width: 100%;
     padding-block: 20px;
@@ -113,9 +133,11 @@ nav ul li a{
     transition: 0.5s ease-out;
     cursor: pointer;
 }
+
 nav ul li a:hover{
     color: #61DBFB;
 }
+
 #hum{
     color:#61DBFB ;
     font-size: 1.7rem;
@@ -130,6 +152,7 @@ nav ul li a:hover{
     align-items: center;
     flex-wrap: wrap;
 }
+
 .heroLeft{
     width: 50%;
     display: flex;
@@ -148,6 +171,7 @@ nav ul li a:hover{
     align-items: center;
     animation: 2s infinite shakeImage alternate;
 }
+
 .heroRight img{
     width: 100%;
     filter:drop-shadow(0 0 20px #006d88) ;
@@ -173,6 +197,7 @@ nav ul li a:hover{
     gap: 50px;
     margin-top: 50px;
 }
+
 .skillsSet{
     width: 70%;
     display: flex;
@@ -187,10 +212,12 @@ nav ul li a:hover{
     transition: 0.5s ease-in;
     cursor: pointer;
 }
+
 .skillsSet:hover{
     border: 1px solid #61DBFB;
     background-color: transparent;
 }
+
 .skillsSet h4{
     position: absolute;
     color: #61DBFB;
@@ -198,6 +225,7 @@ nav ul li a:hover{
     left: 0;
     padding: 15px;
 } 
+
 .skillsCards{
     width: 100%;
     display: flex;
@@ -205,6 +233,7 @@ nav ul li a:hover{
     flex-wrap: wrap;
     row-gap: 50px;
 }
+
 .skillCard{
     width: 20%;
     display: flex;
@@ -212,10 +241,10 @@ nav ul li a:hover{
     align-items: center;
     gap: 20px;
 }
+
 .skillCard img{
     width: 40%;
 }
-
 
 /* ProjrctSection */
 
@@ -226,6 +255,7 @@ nav ul li a:hover{
     justify-content: center;
     gap: 50px;
 }
+
 .projectCard{
     width: 26%;
     background-color: rgb(0, 0, 59);
@@ -240,6 +270,7 @@ nav ul li a:hover{
     transition: 0.5s border ease-in;
     transition: 0.3s transform ease-in;
 }
+
 .projectCard:hover{
     border: 1px solid #61DBFB;
     background-color: transparent;
@@ -260,16 +291,19 @@ nav ul li a:hover{
     justify-content: space-around;
     margin-bottom: 70px;
 }
+
 .aboutSection .left{
     width: 25%;
     background-color:  none;
 }
+
 .aboutSection .left img{
     width: 100%;
     border-radius: 5%;
     filter:opacity(80%);
     filter: drop-shadow(0 0 20px #007899);
 }
+
 .aboutSection .right{
     width: 50%;
     display: flex;
@@ -291,12 +325,12 @@ nav ul li a:hover{
     border-top-right-radius:30px ;
     box-shadow: 0 0 20px #006e8d;
 }
+
 .contactIcons{
     display: flex;
     width: 50%;
     justify-content: space-around;
 }
-
 
 .contact i{
     color: #61DBFB;
@@ -305,6 +339,7 @@ nav ul li a:hover{
     cursor: pointer;
     filter: drop-shadow(0 0 8px #61DBFB);
 }
+
 .contact i:hover{
     color: white;
     filter: drop-shadow(0 0 8px white );
@@ -323,11 +358,14 @@ nav ul li a:hover{
     filter: drop-shadow(0 0 8px #61DBFB);
 }
 
+/* Media Query */
+
 @media (max-width:1024px) {
     .skillsSet{
         width: 75%;
     }
 }
+
 @media (max-width:768px) {
     nav ul{
         flex-direction: column;
@@ -364,6 +402,7 @@ nav ul li a:hover{
         width: 40%;
     }
 }
+
 @media (max-width:425px) {
 
     h1{
