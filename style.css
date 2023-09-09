@@ -244,6 +244,7 @@ nav ul li a:hover{
 
 .skillCard img{
     width: 40%;
+    filter: drop-shadow(0 0 20px #007899);
 }
 
 /* ProjrctSection */
