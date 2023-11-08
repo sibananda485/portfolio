@@ -283,6 +283,17 @@ nav ul li a:hover{
     filter: opacity(60%);
 }
 
+#newStack{
+    margin-block: 15px;
+}
+.newTech{
+    display: inline-block;
+    border: 1px solid #b0ff73;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
 /* <!-- aboutSection --> */
 
 .aboutSection{
